@@ -19,3 +19,12 @@ function getTextOf(val) {
   }
   return res;
 }
+
+function getStringOf(values) {
+  let res = [];
+  for (let val of values) {
+    res.push(getTextOf(val));
+  }
+  return res.join(",");
+}
+
