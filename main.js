@@ -28,3 +28,4 @@ function getStringOf(values) {
   return res.join(",");
 }
 
+console.log(getStringOf(process.argv.slice(2)));
